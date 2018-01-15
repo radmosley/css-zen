@@ -1,0 +1,110 @@
+body {
+    margin:0px;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+}
+
+a {
+    color:#fbc90b;
+    text-decoration: none;
+}
+
+section {
+background:#fc783e;
+}
+
+section h1, h2, h3 {
+    font-size: 3em;
+    font-weight: 100;
+    margin-top:0px;
+}
+.intro header {
+    padding: 50px 0 0 50px;
+}
+
+.intro .summary {
+    padding: 0 0 50px 50px;
+}
+
+.preamble {
+    background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url(flower-1.jpg);
+    background-attachment: fixed;
+    font-size: 2em;
+    padding:50px;
+}
+
+.main {
+    font-size: 2em;
+}
+
+.explanation {
+    background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url(tree-1.jpg);
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.participation {
+    background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url(alley-1.jpg);
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.benefits {
+    background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url(flower-2.jpg);
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.requirements {
+    display:none;
+}
+
+.design-selection {
+    background:#FC7740;
+    text-align: center;
+    color: grey;
+    padding: 100px;
+}
+
+.design-selection ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 auto;
+    flex-basis: 25%;
+}
+
+.design-selection li {
+    display: flex;
+    flex-flow: column;
+    padding: 0 5% 0;
+    text-align: center;
+}
+
+.select {
+    color:white;
+}
+
+footer {
+    display:none;
+}
+
+.design-name{
+    color: black;
+    font-size: 2em;
+}
+
+.designer-name {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.design-archives {
+    background-color: #000;
+    padding:50px;
+}
+
+.zen-resources {
+    background: lightblue;
+    padding: 50px;
+}

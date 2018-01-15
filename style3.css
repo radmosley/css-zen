@@ -1,0 +1,111 @@
+body {
+    font-family: "Amatic SC", cursive;
+    background: url(lined-paper.png) center;
+    margin:0;
+    font-size: 1.5em;
+}
+
+h1, h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin:0;
+}
+
+h1 {
+    margin-top:200px;
+    margin-bottom:30px;
+}
+
+.intro {
+    background-image: url(air-plane.png);
+    background-size: cover;
+    display: inline-block;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    margin-left: 50px;
+}
+
+.summary {
+    display:none;
+}
+
+.preamble::before {
+    background-image: url(mountains.png);
+    background-position: center;
+    background-size: contain;
+    display:inline-block;
+    width:90%;
+    height:100px;
+    content: " ";
+    margin: 0 15 0 0;
+}
+
+.preamble {
+    text-align:center;
+    width:90%;
+    margin: 15px auto;
+}
+
+.explanation p::first-letter {
+    color:red;
+    font-size: 1.25em;
+}
+
+.explanation {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.participation {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.participation p::first-letter {
+    color:red;
+    font-size: 1.25em;
+}
+
+.benefits {
+    width: 90%;
+    margin: 15px auto;
+}
+
+.benefits p::first-letter {
+    color:red;
+    font-size: 1.25em;
+}
+
+.requirements p::first-letter {
+    color:red;
+    font-size: 1.25em;
+}
+.requirements {
+    width: 90%;
+    margin:0 auto;
+    padding-bottom:0;
+}
+
+footer {
+    width:90%;
+    margin:0 auto;
+    padding: 50px 0px;
+}
+
+.design-selection {
+    text-align: center;
+    border-top: 3px dashed;
+}
+
+li{
+    list-style: none;
+}
+
+.design-archives {
+    text-align: center;
+}
+
+.zen-resources {
+    text-align: center;
+}

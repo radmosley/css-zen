@@ -1,0 +1,57 @@
+body {
+    margin:0;
+}
+section, .sidebar {
+    color: #fff;
+    font-size:1.2em;
+}
+section div {
+    padding:20px;
+}
+
+a{
+    color:#63D471;
+    text-decoration:none;
+}
+
+header {
+    padding:20px;
+    background-color:#004F2D;
+    color:000;
+}
+
+h1 {
+    font-size:3em;
+    margin:0;
+}
+
+.summary {
+    background: #0A8754;
+}
+
+.preamble {
+    background: #508CA4;
+}
+
+.main {
+    width: 75%;
+    margin:40px auto;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding:20px;
+}
+
+.design-selection{
+    background: #508CA4;
+    padding:20px;
+}
+
+.design-archives {
+    background: #0A8754;
+    padding:20px;
+}
+
+.zen-resources {
+    background-color:#004F2D;
+    padding:20px;
+}

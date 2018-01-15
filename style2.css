@@ -1,0 +1,102 @@
+body {
+    color: #fff;
+    font-family: sans-serif;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color:#F6E171;
+}
+
+.page-wrapper{
+    margin: auto 0;
+}
+
+header {
+    text-align:center;
+    color: #00A6A6;
+}
+
+h1 {
+    font-size:5em;
+    margin-bottom:0;
+}
+
+h2 {
+    font-size: 2em;
+    margin:0;
+}
+
+.summary {
+    text-align:center;
+    color: #037972;
+}
+
+.preamble {
+    background: #F49F0A;
+    padding:20px;
+    margin:20px auto;
+    width:75%;
+    box-shadow: 10px 10px #EFCA08;
+}
+
+.explanation {
+    background:#EFCA08;
+    padding:20px;
+    margin:20px auto;
+    width:75%;
+    box-shadow: 10px 10px #F49F0A;
+}
+
+.participation {
+    background: #F49F0A;
+    padding:20px;
+    margin:20px auto;
+    width:75%;
+    box-shadow: 10px 10px #EFCA08;
+}
+
+.benefits{
+    background:#EFCA08;
+    padding:20px;
+    margin:20px auto;
+    width:75%;
+    box-shadow: 10px 10px #F49F0A;
+}
+
+.requirements {
+    background:#F49F0A;
+    padding:20px;
+    margin:20px auto;
+    width:75%;
+    box-shadow: 10px 10px #EFCA08;
+}
+
+footer {
+    background:#d7253d;
+    padding:20px;
+}
+
+footer a {
+    margin:20px;
+}
+
+.design-selection {
+    background:#D7253D;
+    padding:20px;
+}
+
+.design-archives {
+    background: #f8333c;
+    padding:20px;
+}
+
+.zen-resources {
+    background:#FF7733;
+    padding:20px;
+}
+
+li {
+    list-style:none;
+}
